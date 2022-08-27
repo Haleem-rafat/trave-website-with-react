@@ -18,6 +18,15 @@ const Navbar = () => {
     setNav(!nav);
     setLogo(!logo);
   };
+
+  const onRouteClick = (e, { name, route }) => {
+    const anchor = document.querySelector(route);
+    anchor.scrollIntoView({
+      behavior: "smooth",
+      block: "end",
+      inline: "nearest",
+    });
+  };
   return (
     <div>
       <div className="flex justify-between items-center h-20 px-4 absolute w-full z-10 text-white">
@@ -29,12 +38,42 @@ const Navbar = () => {
             BEACHES.
           </h1>
         </div>
-        <ul className="hidden md:flex ">
-          <li className="cursor-pointer">Home</li>
-          <li className="cursor-pointer">Destinations</li>
-          <li className="cursor-pointer">Travel</li>
-          <li className="cursor-pointer">View</li>
-          <li className="cursor-pointer">Book</li>
+        <ul className="hidden md:flex gap-10 ">
+          <a
+            href="#home"
+            onClick={onRouteClick}
+            className="cursor-pointer hover:text-[#5651e5]"
+          >
+            Home
+          </a>
+          <a
+            href="#Destinations"
+            onClick={onRouteClick}
+            className="cursor-pointer hover:text-[#5651e5]"
+          >
+            Destinations
+          </a>
+          <a
+            href="#Travel"
+            onClick={onRouteClick}
+            className="cursor-pointer hover:text-[#5651e5]"
+          >
+            Travel
+          </a>
+          <a
+            href="#View"
+            onClick={onRouteClick}
+            className="cursor-pointer hover:text-[#5651e5]"
+          >
+            View
+          </a>
+          <a
+            href="#Book"
+            onClick={onRouteClick}
+            className="cursor-pointer hover:text-[#5651e5]"
+          >
+            Book
+          </a>
         </ul>
         <div className="hidden md:flex cursor-pointer ">
           <BsPerson className=" hover:text-[#5651e5] mr-3" size={20} />
@@ -60,13 +99,43 @@ const Navbar = () => {
               : "top-0 left-[-100%] bg-gray-100/90 flex flex-col  absolute transition-all"
           }
         >
-          <ul>
+          <ul className="flex flex-col gap-10">
             <h1 className="cursor-default ">BEACHES.</h1>
-            <li className="border-b cursor-pointer">Home</li>
-            <li className="border-b cursor-pointer">Destinations</li>
-            <li className="border-b cursor-pointer">Travel</li>
-            <li className="border-b cursor-pointer">View</li>
-            <li className="border-b cursor-pointer">Book</li>
+            <a
+              href="#home"
+              onClick={onRouteClick}
+              className="border-b cursor-pointer"
+            >
+              Home
+            </a>
+            <a
+              href="#Destinations"
+              onClick={onRouteClick}
+              className="border-b cursor-pointer"
+            >
+              Destinations
+            </a>
+            <a
+              href="#Travel"
+              onClick={onRouteClick}
+              className="border-b cursor-pointer"
+            >
+              Travel
+            </a>
+            <a
+              href="#View"
+              onClick={onRouteClick}
+              className="border-b cursor-pointer"
+            >
+              View
+            </a>
+            <a
+              href="#Book"
+              onClick={onRouteClick}
+              className="border-b cursor-pointer"
+            >
+              Book
+            </a>
           </ul>
           <div className="flex flex-col ">
             <button className="my-6 ">Search</button>

@@ -29,7 +29,10 @@ const Carousel = () => {
   console.log(slide);
 
   return (
-    <div className="max-w-[1240px] mx-auto px-4 py-16 relative flex  justify-center transition-all">
+    <div
+      id="View"
+      className="max-w-[1240px] mx-auto px-4 py-16 relative flex  justify-center transition-all"
+    >
       <BsArrowLeftSquareFill
         onClick={clickBack}
         size={30}
