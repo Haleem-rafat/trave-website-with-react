@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Trave website with react with tailwind 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a travel site with React with tailwind CSS, you can search, book and view a variety of cities where you can spend your vacation time.
 
-## Available Scripts
+# Install & Run
 
-In the project directory, you can run:
+### install node module 
+npm install i  
 
-### `npm start`
-
-Runs the app in the development mode.\
+### run app
+npm run start 
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### run build
+npm run build  
 
-### `npm test`
+# How to use
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Steps
+Landing page You can view and browse all-inclusive resorts on the best Caribbean beaches, book now and save very easily.
 
-### `npm run build`
+# lib & technology when i use
+react js https://reactjs.org/docs/create-a-new-react-app.html \
+Tailwind CSS https://tailwindcss.com/ \
+vercel.app https://vercel.com/ 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# advanced style 
+grid system style with tailwind 
+![Screenshot 2022-11-14 at 12 06 50 PM](https://user-images.githubusercontent.com/96750484/201633528-deb3fb9c-2220-414b-8766-3dc112db10ba.png)
+![Screenshot 2022-11-14 at 12 07 08 PM](https://user-images.githubusercontent.com/96750484/201633581-22ed0b03-5fa6-4fdb-b040-b1432ca070aa.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+photo slider with vanella js
+![Screenshot 2022-11-14 at 12 07 14 PM](https://user-images.githubusercontent.com/96750484/201633818-db83edf4-73c0-4b03-ba8b-a615d47c50e8.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+animated side bare in phone responsive app
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+https://user-images.githubusercontent.com/96750484/201635236-522371a5-f85d-4d8b-9ccf-4527bd50687f.mov
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# suppurt devises 
+this app responsive on any screen pc - labtop - tablet  - phone
 
-## Learn More
+# finaly you can try this app on vercel
+https://trave-website-with-react.vercel.app/
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# some screenshots in app pc screen
+![Screenshot 2022-11-14 at 12 06 25 PM](https://user-images.githubusercontent.com/96750484/201633929-fcd12589-d00e-4016-9be7-92b45425ba1c.png)
+![Screenshot 2022-11-14 at 12 06 56 PM](https://user-images.githubusercontent.com/96750484/201633966-cea7edc1-1fb4-46a7-8ad7-e91b91ebce3c.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# some screenshots in app phone screen
+![Screenshot 2022-11-14 at 12 13 10 PM](https://user-images.githubusercontent.com/96750484/201634369-37e89507-ef3f-4273-b6fb-9906c24fa46d.png)
+![Screenshot 2022-11-14 at 12 13 18 PM](https://user-images.githubusercontent.com/96750484/201634378-646faa28-a82d-429c-8299-eaa76fdb3118.png)
+![Screenshot 2022-11-14 at 12 13 27 PM](https://user-images.githubusercontent.com/96750484/201634385-6b16c71b-de16-4aae-921a-39391ac3ae0b.png)
+![Screenshot 2022-11-14 at 12 13 34 PM](https://user-images.githubusercontent.com/96750484/201634391-9acd7366-c855-4b6a-adbb-ed5188a77dc6.png)
+![Screenshot 2022-11-14 at 12 13 43 PM](https://user-images.githubusercontent.com/96750484/201634394-2001bfef-8da8-43fe-bab2-eee0aff122f9.png)
+![Screenshot 2022-11-14 at 12 13 54 PM](https://user-images.githubusercontent.com/96750484/201634399-5a65529d-8305-4f1f-9f65-c0b465223d24.png)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
